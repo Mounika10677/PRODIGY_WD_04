@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baratam Mounika - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.jpg" alt="Baratam Mounika" class="profile-photo">
+            <h1>Baratam Mounika</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Baratam Mounika, an undergraduate student pursuing B.Tech in Electronics and Communication Engineering at KL University. Passionate about technology and innovation, I am honing my skills in web development, including HTML, CSS, and JavaScript. Eager to apply my knowledge to real-world projects, I have already developed several web applications and portfolio sites. Excited to continue my journey in the tech world, I aim to contribute meaningfully to the field and explore new opportunities for growth and learning.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="Stopwatch Web Application">
+                    <h3>Stopwatch Web Application</h3>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Tic-Tac-Toe Web Application">
+                    <h3>Tic-Tac-Toe Web Application</h3>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Portfolio Sites">
+                    <h3>Portfolio Sites</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>C Language</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Baratam Mounika</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
